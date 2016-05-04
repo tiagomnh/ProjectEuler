@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		868804131CDAA04300AB4049 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804121CDAA04300AB4049 /* main.swift */; };
+		8688041C1CDAA25300AB4049 /* Int+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688041B1CDAA25300AB4049 /* Int+Extentions.swift */; };
+		868804241CDAA3AD00AB4049 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804231CDAA3AD00AB4049 /* Problem1.swift */; };
+		868804261CDAA40C00AB4049 /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804251CDAA40C00AB4049 /* Problem2.swift */; };
+		868804281CDAA41400AB4049 /* ProblemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804271CDAA41400AB4049 /* ProblemType.swift */; };
+		8688042A1CDAA44D00AB4049 /* FibonacciGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804291CDAA44D00AB4049 /* FibonacciGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8688040D1CDAA04300AB4049 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8688040F1CDAA04300AB4049 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
+		868804121CDAA04300AB4049 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8688041B1CDAA25300AB4049 /* Int+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Extentions.swift"; path = "Extensions/Int+Extentions.swift"; sourceTree = "<group>"; };
+		868804231CDAA3AD00AB4049 /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
+		868804251CDAA40C00AB4049 /* Problem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
+		868804271CDAA41400AB4049 /* ProblemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemType.swift; sourceTree = "<group>"; };
+		868804291CDAA44D00AB4049 /* FibonacciGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FibonacciGenerator.swift; path = Generators/FibonacciGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8688040C1CDAA04300AB4049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		868804061CDAA04300AB4049 = {
+			isa = PBXGroup;
+			children = (
+				868804111CDAA04300AB4049 /* ProjectEuler */,
+				868804101CDAA04300AB4049 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		868804101CDAA04300AB4049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8688040F1CDAA04300AB4049 /* ProjectEuler */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		868804111CDAA04300AB4049 /* ProjectEuler */ = {
+			isa = PBXGroup;
+			children = (
+				868804121CDAA04300AB4049 /* main.swift */,
+				8688041F1CDAA34600AB4049 /* Problems */,
+				8688041D1CDAA25600AB4049 /* Extensions */,
+				8688042B1CDAA45000AB4049 /* Generators */,
+			);
+			path = ProjectEuler;
+			sourceTree = "<group>";
+		};
+		8688041D1CDAA25600AB4049 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8688041B1CDAA25300AB4049 /* Int+Extentions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8688041F1CDAA34600AB4049 /* Problems */ = {
+			isa = PBXGroup;
+			children = (
+				868804271CDAA41400AB4049 /* ProblemType.swift */,
+				868804231CDAA3AD00AB4049 /* Problem1.swift */,
+				868804251CDAA40C00AB4049 /* Problem2.swift */,
+			);
+			path = Problems;
+			sourceTree = "<group>";
+		};
+		8688042B1CDAA45000AB4049 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				868804291CDAA44D00AB4049 /* FibonacciGenerator.swift */,
+			);
+			name = Generators;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8688040E1CDAA04300AB4049 /* ProjectEuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 868804161CDAA04300AB4049 /* Build configuration list for PBXNativeTarget "ProjectEuler" */;
+			buildPhases = (
+				8688040B1CDAA04300AB4049 /* Sources */,
+				8688040C1CDAA04300AB4049 /* Frameworks */,
+				8688040D1CDAA04300AB4049 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjectEuler;
+			productName = ProjectEuler;
+			productReference = 8688040F1CDAA04300AB4049 /* ProjectEuler */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		868804071CDAA04300AB4049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tiago Henriques";
+				TargetAttributes = {
+					8688040E1CDAA04300AB4049 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 8688040A1CDAA04300AB4049 /* Build configuration list for PBXProject "ProjectEuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 868804061CDAA04300AB4049;
+			productRefGroup = 868804101CDAA04300AB4049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8688040E1CDAA04300AB4049 /* ProjectEuler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8688040B1CDAA04300AB4049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				868804261CDAA40C00AB4049 /* Problem2.swift in Sources */,
+				868804241CDAA3AD00AB4049 /* Problem1.swift in Sources */,
+				8688042A1CDAA44D00AB4049 /* FibonacciGenerator.swift in Sources */,
+				8688041C1CDAA25300AB4049 /* Int+Extentions.swift in Sources */,
+				868804281CDAA41400AB4049 /* ProblemType.swift in Sources */,
+				868804131CDAA04300AB4049 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		868804141CDAA04300AB4049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		868804151CDAA04300AB4049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		868804171CDAA04300AB4049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		868804181CDAA04300AB4049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8688040A1CDAA04300AB4049 /* Build configuration list for PBXProject "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868804141CDAA04300AB4049 /* Debug */,
+				868804151CDAA04300AB4049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		868804161CDAA04300AB4049 /* Build configuration list for PBXNativeTarget "ProjectEuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				868804171CDAA04300AB4049 /* Debug */,
+				868804181CDAA04300AB4049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 868804071CDAA04300AB4049 /* Project object */;
+}
