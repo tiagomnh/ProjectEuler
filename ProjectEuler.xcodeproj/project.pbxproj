@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		868804131CDAA04300AB4049 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804121CDAA04300AB4049 /* main.swift */; };
-		8688041C1CDAA25300AB4049 /* Int+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688041B1CDAA25300AB4049 /* Int+Extentions.swift */; };
+		8688041C1CDAA25300AB4049 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688041B1CDAA25300AB4049 /* Int+Extensions.swift */; };
 		868804241CDAA3AD00AB4049 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804231CDAA3AD00AB4049 /* Problem1.swift */; };
 		868804261CDAA40C00AB4049 /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804251CDAA40C00AB4049 /* Problem2.swift */; };
 		868804281CDAA41400AB4049 /* ProblemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804271CDAA41400AB4049 /* ProblemType.swift */; };
@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		8688040F1CDAA04300AB4049 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		868804121CDAA04300AB4049 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		8688041B1CDAA25300AB4049 /* Int+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Extentions.swift"; path = "Extensions/Int+Extentions.swift"; sourceTree = "<group>"; };
+		8688041B1CDAA25300AB4049 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Extensions.swift"; path = "Extensions/Int+Extensions.swift"; sourceTree = "<group>"; };
 		868804231CDAA3AD00AB4049 /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		868804251CDAA40C00AB4049 /* Problem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
 		868804271CDAA41400AB4049 /* ProblemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemType.swift; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		8688041D1CDAA25600AB4049 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				8688041B1CDAA25300AB4049 /* Int+Extentions.swift */,
+				8688041B1CDAA25300AB4049 /* Int+Extensions.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -161,7 +161,7 @@
 				868804261CDAA40C00AB4049 /* Problem2.swift in Sources */,
 				868804241CDAA3AD00AB4049 /* Problem1.swift in Sources */,
 				8688042A1CDAA44D00AB4049 /* FibonacciGenerator.swift in Sources */,
-				8688041C1CDAA25300AB4049 /* Int+Extentions.swift in Sources */,
+				8688041C1CDAA25300AB4049 /* Int+Extensions.swift in Sources */,
 				868804281CDAA41400AB4049 /* ProblemType.swift in Sources */,
 				868804131CDAA04300AB4049 /* main.swift in Sources */,
 			);
@@ -285,6 +285,7 @@
 				868804181CDAA04300AB4049 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
