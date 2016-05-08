@@ -48,4 +48,32 @@ extension Int {
         return true
     }
 
+
+    // MARK: - Palindrome
+
+    var palindrome: Bool {
+        let absoluteValue = abs(self)
+        if absoluteValue < 10 { return true }
+
+        var characters = "\(absoluteValue)".characters
+
+        func checkPalindrome(inout characters: String.CharacterView) -> Bool {
+
+            if characters.count == 0 { return true }
+
+            let first = characters.popFirst()
+            let last = characters.popLast()
+
+            if first != nil && last == nil {
+                return true
+            } else if first != nil && last != nil && first != last {
+                return false
+            } else {
+                return checkPalindrome(&characters)
+            }
+        }
+
+        return checkPalindrome(&characters)
+    }
+
 }

@@ -10,8 +10,8 @@ import Foundation
 
 func printSolution<T: Solvable>(problem: T) {
     let (solution, duration) = problem.solveAndMeasureTime()
-    let durationString = String(format: "%.03fs", (duration * 1000))
+    let durationString = String(format: "%.03fs", duration)
     print("\(solution) (\(durationString))")
 }
 
-printSolution(Problem3())
+printSolution(Problem4())
