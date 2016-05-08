@@ -14,4 +14,4 @@ func printSolution<T: Solvable>(problem: T) {
     print("\(solution) (\(durationString))")
 }
 
-printSolution(Problem4())
+printSolution(Problem5())
