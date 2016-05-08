@@ -15,7 +15,7 @@ class Problem3: Solvable {
     }
 
     func largestPrimeFactorOf(number: Int) -> Int {
-        var divisor = Int(sqrt(Float(number)))
+        var divisor = Int(ceil(sqrt(Float(number))))
 
         while divisor > 1 {
             if number % divisor == 0 && divisor.prime {
