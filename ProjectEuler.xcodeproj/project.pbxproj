@@ -15,6 +15,8 @@
 		8676FBCA1CDFD942006E5247 /* Problem7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676FBC91CDFD942006E5247 /* Problem7.swift */; };
 		8676FBCC1CDFDC06006E5247 /* Problem8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676FBCB1CDFDC06006E5247 /* Problem8.swift */; };
 		8676FBCE1CDFDEB5006E5247 /* Problem9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676FBCD1CDFDEB5006E5247 /* Problem9.swift */; };
+		8676FBD01CDFE1B9006E5247 /* Problem10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676FBCF1CDFE1B9006E5247 /* Problem10.swift */; };
+		8676FBD21CDFEEB7006E5247 /* SieveOfEratosthenes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8676FBD11CDFEEB7006E5247 /* SieveOfEratosthenes.swift */; };
 		868804131CDAA04300AB4049 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804121CDAA04300AB4049 /* main.swift */; };
 		8688041C1CDAA25300AB4049 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688041B1CDAA25300AB4049 /* Int+Extensions.swift */; };
 		868804241CDAA3AD00AB4049 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804231CDAA3AD00AB4049 /* Problem1.swift */; };
@@ -44,6 +46,8 @@
 		8676FBC91CDFD942006E5247 /* Problem7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem7.swift; sourceTree = "<group>"; };
 		8676FBCB1CDFDC06006E5247 /* Problem8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem8.swift; sourceTree = "<group>"; };
 		8676FBCD1CDFDEB5006E5247 /* Problem9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem9.swift; sourceTree = "<group>"; };
+		8676FBCF1CDFE1B9006E5247 /* Problem10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem10.swift; sourceTree = "<group>"; };
+		8676FBD11CDFEEB7006E5247 /* SieveOfEratosthenes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SieveOfEratosthenes.swift; path = Other/SieveOfEratosthenes.swift; sourceTree = "<group>"; };
 		8688040F1CDAA04300AB4049 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		868804121CDAA04300AB4049 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		8688041B1CDAA25300AB4049 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Extensions.swift"; path = "Extensions/Int+Extensions.swift"; sourceTree = "<group>"; };
@@ -64,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8676FBD31CDFEEBB006E5247 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8676FBD11CDFEEB7006E5247 /* SieveOfEratosthenes.swift */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		868804061CDAA04300AB4049 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +99,7 @@
 				8688041F1CDAA34600AB4049 /* Problems */,
 				8688041D1CDAA25600AB4049 /* Extensions */,
 				8688042B1CDAA45000AB4049 /* Generators */,
+				8676FBD31CDFEEBB006E5247 /* Other */,
 			);
 			path = ProjectEuler;
 			sourceTree = "<group>";
@@ -112,6 +125,7 @@
 				8676FBC91CDFD942006E5247 /* Problem7.swift */,
 				8676FBCB1CDFDC06006E5247 /* Problem8.swift */,
 				8676FBCD1CDFDEB5006E5247 /* Problem9.swift */,
+				8676FBCF1CDFE1B9006E5247 /* Problem10.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -189,8 +203,10 @@
 				868804261CDAA40C00AB4049 /* Problem2.swift in Sources */,
 				868804241CDAA3AD00AB4049 /* Problem1.swift in Sources */,
 				8688042A1CDAA44D00AB4049 /* FibonacciGenerator.swift in Sources */,
+				8676FBD01CDFE1B9006E5247 /* Problem10.swift in Sources */,
 				8676FBC61CDFD759006E5247 /* Problem6.swift in Sources */,
 				8676FBBE1CDF8FFC006E5247 /* Problem3.swift in Sources */,
+				8676FBD21CDFEEB7006E5247 /* SieveOfEratosthenes.swift in Sources */,
 				8688041C1CDAA25300AB4049 /* Int+Extensions.swift in Sources */,
 				868804281CDAA41400AB4049 /* Solvable.swift in Sources */,
 				8676FBCA1CDFD942006E5247 /* Problem7.swift in Sources */,

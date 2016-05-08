@@ -1,5 +1,5 @@
 //
-//  Int+Euler.swift
+//  Int+Extensions.swift
 //  ProjectEuler
 //
 //  Created by Tiago Henriques on 04/05/16.
