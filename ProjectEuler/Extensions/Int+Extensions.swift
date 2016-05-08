@@ -29,4 +29,23 @@ extension Int {
         return self % value == 0
     }
 
+
+    // MARK: - Primality
+
+    var prime: Bool {
+        if self <= 1 { return false }
+        if self == 2 || self == 3 { return true }
+        if self.multipleOf(2) || self.multipleOf(3) { return false }
+
+        var divisor = 5
+        while divisor < self / 2 {
+            if self % divisor == 0 {
+                return false
+            }
+            divisor = divisor + 1
+        }
+
+        return true
+    }
+
 }

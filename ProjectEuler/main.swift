@@ -8,5 +8,4 @@
 
 import Foundation
 
-Problem1.solve()
-Problem2.solve()
+Problem3.solve()
