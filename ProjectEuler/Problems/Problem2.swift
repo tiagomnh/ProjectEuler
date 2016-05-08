@@ -8,9 +8,9 @@
 
 import Foundation
 
-class Problem2: ProblemType {
+class Problem2: Solvable {
 
-    static func solve() {
+    func solve() -> Int {
         let fibonacciSequence = GeneratorSequence(FibonacciGenerator())
 
         var sum = 0
@@ -20,7 +20,7 @@ class Problem2: ProblemType {
             sum = sum + number
         }
 
-        printAnswer("\(sum)")
+        return sum
     }
     
 }

@@ -8,14 +8,12 @@
 
 import Foundation
 
-class Problem1: ProblemType {
+class Problem1: Solvable {
 
-    static func solve() {
-        let answer = Array(1...999)
+    func solve() -> Int {
+        return Array(1...999)
             .filter { $0.multipleOf(3) || $0.multipleOf(5) }
             .reduce(0, combine: +)
-
-        printAnswer("\(answer)")
     }
     
 }

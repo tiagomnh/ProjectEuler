@@ -13,7 +13,7 @@
 		8688041C1CDAA25300AB4049 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8688041B1CDAA25300AB4049 /* Int+Extensions.swift */; };
 		868804241CDAA3AD00AB4049 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804231CDAA3AD00AB4049 /* Problem1.swift */; };
 		868804261CDAA40C00AB4049 /* Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804251CDAA40C00AB4049 /* Problem2.swift */; };
-		868804281CDAA41400AB4049 /* ProblemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804271CDAA41400AB4049 /* ProblemType.swift */; };
+		868804281CDAA41400AB4049 /* Solvable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804271CDAA41400AB4049 /* Solvable.swift */; };
 		8688042A1CDAA44D00AB4049 /* FibonacciGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868804291CDAA44D00AB4049 /* FibonacciGenerator.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,7 @@
 		8688041B1CDAA25300AB4049 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Extensions.swift"; path = "Extensions/Int+Extensions.swift"; sourceTree = "<group>"; };
 		868804231CDAA3AD00AB4049 /* Problem1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
 		868804251CDAA40C00AB4049 /* Problem2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem2.swift; sourceTree = "<group>"; };
-		868804271CDAA41400AB4049 /* ProblemType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemType.swift; sourceTree = "<group>"; };
+		868804271CDAA41400AB4049 /* Solvable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solvable.swift; sourceTree = "<group>"; };
 		868804291CDAA44D00AB4049 /* FibonacciGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FibonacciGenerator.swift; path = Generators/FibonacciGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +90,7 @@
 		8688041F1CDAA34600AB4049 /* Problems */ = {
 			isa = PBXGroup;
 			children = (
-				868804271CDAA41400AB4049 /* ProblemType.swift */,
+				868804271CDAA41400AB4049 /* Solvable.swift */,
 				868804231CDAA3AD00AB4049 /* Problem1.swift */,
 				868804251CDAA40C00AB4049 /* Problem2.swift */,
 				8676FBBD1CDF8FFC006E5247 /* Problem3.swift */,
@@ -169,7 +169,7 @@
 				8688042A1CDAA44D00AB4049 /* FibonacciGenerator.swift in Sources */,
 				8676FBBE1CDF8FFC006E5247 /* Problem3.swift in Sources */,
 				8688041C1CDAA25300AB4049 /* Int+Extensions.swift in Sources */,
-				868804281CDAA41400AB4049 /* ProblemType.swift in Sources */,
+				868804281CDAA41400AB4049 /* Solvable.swift in Sources */,
 				868804131CDAA04300AB4049 /* main.swift in Sources */,
 				8676FBC01CDF9EC2006E5247 /* PrimesGenerator.swift in Sources */,
 			);

@@ -8,17 +8,13 @@
 
 import Foundation
 
-extension Int {
-}
+class Problem3: Solvable {
 
-class Problem3: ProblemType {
-
-    static func solve() {
-        let answer = largestPrimeFactorOf(600851475143)
-        printAnswer("\(answer)")
+    func solve() -> Int {
+        return largestPrimeFactorOf(600851475143)
     }
 
-    static func largestPrimeFactorOf(number: Int) -> Int {
+    func largestPrimeFactorOf(number: Int) -> Int {
         let squareRoot = Int(sqrt(Float(number)))
 
         let primesSequence = GeneratorSequence(PrimesGenerator())
