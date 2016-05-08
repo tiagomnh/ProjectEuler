@@ -15,20 +15,17 @@ class Problem3: Solvable {
     }
 
     func largestPrimeFactorOf(number: Int) -> Int {
-        let squareRoot = Int(sqrt(Float(number)))
+        var divisor = Int(sqrt(Float(number)))
 
-        let primesSequence = GeneratorSequence(PrimesGenerator())
-
-        var largestPrime = 1
-
-        for prime in primesSequence {
-            guard prime < squareRoot else { break }
-            if number % prime == 0 {
-                largestPrime = prime
+        while divisor > 1 {
+            if number % divisor == 0 && divisor.prime {
+                return divisor
             }
+
+            divisor -= 1
         }
 
-        return largestPrime
+        return 0
     }
     
 }
